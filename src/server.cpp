@@ -11,9 +11,6 @@
 #include <third_party/nlohmann/json.hpp> // JSON library
 #include "SOLOMotorControllersSerial.h"
 
-// Link with SetupAPI.lib for MSV C++
-//#pragma comment(lib, "SetupAPI.lib")
-
 #ifndef MAX_DEVICE_ID_LEN
 #define MAX_DEVICE_ID_LEN 200
 #endif
